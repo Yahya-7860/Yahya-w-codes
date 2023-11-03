@@ -1,137 +1,105 @@
+*{
+    padding:0;
+    margin: 0;
+}
 body{
-    padding: 20px;
-    font-family: 'Roboto', sans-serif;
-    background-color: rgb(229, 229, 229);
+    background-color: black;            
 }
-#head h1,h2,p{
-    position: absolute;
-    color: rgb(255, 255, 255);
-}
-#head h1{
-    bottom: 470px;
-    left: 100px;
-    font-size: 35px;
-}
-#head p{
-    bottom: 490px;
-    left: 105px;
-    color: rgb(255, 255, 255);
-    font-weight: 500;
-    font-size: 20px;
-}
-#head h2{
-    bottom: 410px;
-    left: 100px;
-    color: #f8e535;     
-    font-size: 40px;
-}
-#head img{
+#navi{
+    background:black;
     width:100%;
-    height: 500px;
-    border-top-left-radius:13px;
-    border-top-right-radius:13px;
-}
-#mid{
-    width: 100%;
-    height: 150px;
-    background-color: black;
-    position: relative;
-    bottom: 70px;
-}
-#mid p{
-    color: white;
-    font-size: 60px;
-    position: absolute;
-    left: 280px;
-    bottom: -19px;
-}
-span{
-    font-size: 80px;
-    color: #a15300;
-}
-#service{
-    width: 100%;
-    position: relative;
-    bottom: 70px;
-    height: 350px;
-    background-color: white;
-}
-#first,#second,#third{
-    width:170px;
-    height: 230px;
-    color: white;
-    box-shadow: 0px 1px 5px 0px rgb(165, 165, 165);
-    border-radius: 10px;
-    position: absolute;
-    left: 200px;
-    top:60px;
-    transition:0.3s ease-in-out;
-
-}
-#first:hover,#second:hover,#third:hover{
-    transform: scale(1.2);
-    transition:0.3s ease-in-out;
-}
-#second{
-    left: 500px;
-}
-#third{
-    left: 800px;
-}
-#first img,#second img,#third img{
-    width:170px;
-    height: 110px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-#service h4,p{
-    margin-left: 10px;
-    margin-right:10px;
-    position: relative;
-    bottom: 18px;
-    color: black;
-}
-#service p{
-    font-size: 10px;
-    bottom: 29px;
-    text-align: justify;
-}
-#one{
-    width: 100%;
-    height:250px;
-    background-color: #405c1e;
-    position: relative;
-    bottom: 70px;
-}
-#two{
-    width: 50%;
-    height:250px;
-    background-color: #723d00;
-}
-
-#ek,#do{
-    color: white;
-    width: 40%;
-    position: absolute;
-    top:64em;
-    left: 50px;
-    padding: 20px;
-}
-#do{
-    left: 42em;
-}
-#ek p,#do p{
-    color: white;
-}
-#end{
-    width: 95.6%;
-    height: 50px;
-    position: absolute;
-    bottom: -740px;
-    background-color: black;
-}
-#end p{ 
-    color: white;
     text-align: center;
-    padding: 15px;
+    height: 80px;
+}
+#navi img{
+    width:50px;
+    margin-left:20px;
+    margin:10px;
+    height: 50px;
+    border-radius: 100%;
+    border: 3px solid red;
+    float:left;
+}
+.head li{
+    display: inline-block;      
+    list-style-type: none;     
+    font-size: 20px;
+    font-family: 'Young Serif', serif;
+    padding:20px;
+}
+.head a{
+    display:inline;
+    text-decoration: none;
+    color:white;            
+}
+.head a:hover,span{
+    color:red;
+}
+button{
+    float:right;
+    position: relative;
+    bottom: 50px;
+    margin-right: 50px;
+    width:75px;
+    height: 35px;
+    font-weight:900;
+    border:none;
+    color:white;
+    font-size: 18px;
+    border-radius: 5px;
+    background:linear-gradient(to right,red,rgb(82, 9, 9));
+}
+button:hover{
+    color:red;
+    background:wheat;
+}
+main{
+    width:60%;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.firstline{
+    color:red;
+    font-family: 'Young Serif', serif;
+    margin-left: 10px;
+}
+h1{
+    color:whitesmoke;
+    font-family: 'Young Serif', serif;
+    width:500px;
+    word-spacing: 4px;
+}
+.lastline{
+    color:rgb(179, 172, 172);
+    font-size: 12px;
+    width:500px;
+}
+.imguser img{
+    width:20px;
+    height:20px;
+    margin-top:10px;
+    border-radius: 100%;
+    border:solid 3px red;
+}
+.user{
+    color:white;
+    font-family: 'Young Serif', serif;
+    font-size: 13px;
+    position: relative;
+    bottom: 10px;
+    display: inline;
+}
+.learn button{
+     width:150px;
+     height: 50px;
+     position: relative;
+     top:30px;
+     right: 620px;            
+}
+.phone img{
+    width:400px;
+    height:400px;
+    position: relative;
+    left:600px;
+    bottom: 200px;
 }
